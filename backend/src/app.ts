@@ -23,6 +23,7 @@ app.use(
 );
 app.use(express.json({ limit: '100kb' }));
 
+app.get('/', (_req, res) => res.json({ name: 'Project Management API', status: 'ok', health: '/health' }));
 app.get('/health', (_req, res) => res.json({ status: 'ok' }));
 
 app.use('/api/auth', authRoutes);
