@@ -44,7 +44,7 @@ flowchart LR
 | Database | PostgreSQL (Neon) | Stores users, projects, tasks with foreign keys |
 | Hosting | Vercel, Render, Neon, GitHub | Web, API, database, source code |
 
-## 2. What a user can do
+## 2. What a user can do(Process Diagram)
 
 ```mermaid
 flowchart TD
